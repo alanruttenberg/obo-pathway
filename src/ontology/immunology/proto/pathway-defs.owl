@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/opath/dev/pathway-defs.owl#"
+     xml:base="http://purl.obolibrary.org/obo/opath/dev/pathway-defs.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:snap="http://www.ifomis.org/bfo/1.1/snap#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/opath/dev/pathway-defs.owl">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/ontology-metadata.owl"/>
+        <owl:imports rdf:resource="http://www.ifomis.org/bfo/1.1"/>
+	<owl:imports rdf:resource="http://www.obofoundry.org/ro/ro_bfo1-1_bridge.owl"/>
+	<owl:imports rdf:resource="http://purl.obolibrary.org/obo/opath/dev/new-bfo-relations.owl"/>
+   </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OPATH_0000007">
+        <rdfs:label>has number of inputs</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OPATH_0000008">
+        <rdfs:label>has number of outputs</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPATH_0000005 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OPATH_0000005">
+        <rdfs:label xml:lang="en">is component process of</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">relation between a process sp of type SP and a larger process lp of type LP where an lp is the sum of many instances of SP. Analogous to is_grain_of for continuants.</obo:IAO_0000115>
+        <!-- <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/> -->
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPATH_0000006 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OPATH_0000006">
+        <rdfs:label xml:lang="en">has component process</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">relation between a larger process lp of type LP and a process sp of type SP and where an lp is the sum of many instances of SP. Analogous to has_grain for continuants.</obo:IAO_0000115>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/OPATH_0000005"/>
+        <!-- <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/> -->
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <!-- <owl:ObjectProperty rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty"/> -->
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPATH_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPATH_0000001">
+        <rdfs:label>substrate disposition</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Disposition"/>
+        <obo:IAO_0000115>a disposition realized in a chemical reaction where the bearer is present at the beginning of the reaction absent at the end</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPATH_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPATH_0000002">
+        <rdfs:label>product disposition</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Disposition"/>
+        <obo:IAO_0000115 xml:lang="en">a disposition realized in a chemical reaction where the bearer is created in the reaction</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/bfo/1.1/snap#Disposition -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/bfo/1.1/snap#Disposition"/>
+
+  <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0006461">
+    <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/GO"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0065003"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0071822"/>
+    </rdfs:subClassOf>
+    <obo:IAO_0000115 xml:lang="en">The aggregation, arrangement and bonding together of a set of components to form a protein complex.</obo:IAO_0000115>
+    <obo:IAO_0000111 xml:lang="en">protein complex assembly</obo:IAO_0000111>
+    <rdfs:label xml:lang="en">protein complex assembly</rdfs:label>
+    <obo:IAO_0000116>Note from GO rep. "If the process that has output as the complex is only 'putting the synthesized proteins together', then you want the term 'protein complex assembly'"</obo:IAO_0000116>
+  </owl:Class>
+
+  <!-- http://purl.obolibrary.org/obo/PF_0069 -->
+  <!-- no OWL version for PFam yet -->
+  <owl:Class rdf:about="http://purl.obolibrary.org/obo/PF_0069">
+    <rdfs:label>Pkinase</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PFD_p"/>
+    <obo:IAO_0000115>A protein domain whose extent is defined by a match, above a threshold, to the HMM in the Pfam record with accession PF00069</obo:IAO_0000115>
+    <rdfs:isDefinedBy rdf:resource="http://pfam.sanger.ac.uk/family/PF00069"/>
+  </owl:Class>
+
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.0.0.1451) http://owlapi.sourceforge.net -->
+

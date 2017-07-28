@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog id="XML Catalog File (see http://www.oasis-open.org/committees/entity/spec-2001-08-06.html) - Created By Protégé 4" prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri  name="http://purl.obolibrary.org/obo/opath/dev/pathway-defs.owl" uri="pathway-defs.owl"/>
+    <uri  name="http://purl.obolibrary.org/obo/opath/dev/TLR2-Lta-signaling-pathway-external-derived.owl" uri="TLR2-Lta-signaling-pathway-external-derived.owl"/>
+    <uri  name="http://purl.obolibrary.org/obo/opath/dev/TLR2-Lta-signaling-pathway-external.owl" uri="TLR2-Lta-signaling-pathway-external.owl"/>
+    <uri  name="http://purl.obolibrary.org/obo/opath/dev/TLR2-Lta-signaling-pathway.owl" uri="TLR2-Lta-signaling-pathway.owl"/>
+    <uri  name="http://purl.obolibrary.org/obo/opath/dev/dsRNA-recognition-and-signaling-via-TLR3-pathway-external.owl" uri="dsRNA-recognition-and-signaling-via-TLR3-pathway-external.owl"/>
+    <uri  name="http://purl.obolibrary.org/obo/opath/dev/dsRNA-recognition-and-signaling-via-TLR3-pathway.owl" uri="dsRNA-recognition-and-signaling-via-TLR3-pathway.owl"/>
+    <uri  name="http://purl.obolibrary.org/obo/opath/dev/dsRNA-recognition-and-signaling-via-TLR3-pathway-external-derived.owl" uri="dsRNA-recognition-and-signaling-via-TLR3-pathway-external-derived.owl"/>
+    <uri  name="http://purl.obolibrary.org/obo/opath/dev/LPS-recognition-and-signaling-via-TLR4-pathway-external.owl" uri="LPS-recognition-and-signaling-via-TLR4-pathway-external.owl"/>
+    <uri  name="http://purl.obolibrary.org/obo/opath/dev/LPS-recognition-and-signaling-via-TLR4-pathway.owl" uri="LPS-recognition-and-signaling-via-TLR4-pathway.owl"/>
+    <uri  name="http://purl.obolibrary.org/obo/opath/dev/LPS-recognition-and-signaling-via-TLR4-pathway-external-derived.owl" uri="LPS-recognition-and-signaling-via-TLR4-pathway-external-derived.owl"/>
+
+    <uri name="http://purl.obolibrary.org/obo/opath/dev/NOD2-signaling-pathway-external-derived.owl" uri="NOD2-signaling-pathway-external-derived.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/opath/dev/TLR8-IRF5-signaling-pathway-external-derived.owl" uri="TLR8-IRF5-signaling-pathway-external-derived.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/opath/dev/TLR9-nfKb-signaling-pathway-external-derived.owl" uri="TLR9-nfKb-signaling-pathway-external-derived.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/opath/dev/TNF-signaling-pathway-external-derived.owl" uri="TNF-signaling-pathway-external-derived.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/opath/dev/TLR7-IRF5-signalin-pathway-external-derived.owl" uri="TLR7-IRF5-signalin-pathway-external-derived.owl"/>
+
+    <uri name="http://purl.obolibrary.org/obo/opath/dev/NOD2-signaling-pathway-external.owl" uri="NOD2-signaling-pathway-external.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/opath/dev/TLR8-IRF5-signaling-pathway-external.owl" uri="TLR8-IRF5-signaling-pathway-external.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/opath/dev/TLR9-nfKb-signaling-pathway-external.owl" uri="TLR9-nfKb-signaling-pathway-external.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/opath/dev/TNF-signaling-pathway-external.owl" uri="TNF-signaling-pathway-external.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/opath/dev/TLR7-IRF5-signalin-pathway-external.owl" uri="TLR7-IRF5-signalin-pathway-external.owl"/>
+
+    <uri name="http://purl.obolibrary.org/obo/opath/dev/NOD2-signaling-pathway.owl" uri="NOD2-signaling-pathway.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/opath/dev/TLR8-IRF5-signaling-pathway.owl" uri="TLR8-IRF5-signaling-pathway.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/opath/dev/TLR9-nfKb-signaling-pathway.owl" uri="TLR9-nfKb-signaling-pathway.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/opath/dev/TNF-signaling-pathway.owl" uri="TNF-signaling-pathway.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/opath/dev/TLR7-IRF5-signalin-pathway.owl" uri="TLR7-IRF5-signalin-pathway.owl"/>
+
+    <uri name="http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl" uri="external/protege-dc.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/iao/dev/ontology-metadata.owl" uri="external/iao/ontology-metadata.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/iao/ontology-metadata.owl" uri="external/ontology-metadata.owl"/>
+    <uri name="http://purl.org/obo/owl/ro_bfo_bridge/1.1" uri="external/ro_bfo_bridge11.owl"/>
+    <uri name="http://www.obofoundry.org/ro/ro.owl" uri="external/ro.owl"/>
+    <uri name="http://www.ifomis.org/bfo/1.1" uri="external/bfo11.owl"/>
+    <uri name="http://www.obofoundry.org/ro/ro_bfo_bridge.owl" uri="external/ro_bfo_bridge11.owl"/>
+    <uri name="http://www.obofoundry.org/ro/ro_bfo1-1_bridge.owl" uri="external/ro_bfo_bridge11.owl"/>
+
+    <uri name="http://purl.obolibrary.org/obo/opath/dev/new-bfo-relations.owl" uri="new-bfo-relations.owl"/>
+
+</catalog>
